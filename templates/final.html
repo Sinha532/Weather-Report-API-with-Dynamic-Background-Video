@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back"> 
+            <source src="../static/{{ background_image }}" type="video/mp4">
+        </video>
+    <div class="weather">
+        <h1>Weather Report for {{ title}}</h1>
+    </div>
+    <div class="hero" id="hero">
+        <div class="p1"><h5>Temperature: {{ temp }}°C</h5></div>
+        <div class="p2"><h5> Weather Condition: {{ status }}</h5></div> 
+        <div class="p3"><h5> Feels like {{ feels_like }} &deg;</p></div>
+    </div>
+    <script src="../script.js"></script>
+    <div class="searchh">
+    <form action="/search" method="POST">
+        <input type="text" name="search_query" placeholder="Search city here" class="search-input">
+        <button type="submit" class="search-button">Search</button>
+    </form>
+    </div>
+</body>
+</html>
