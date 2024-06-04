@@ -3,7 +3,9 @@
 This project is a Flask API that fetches weather data from OpenWeatherMap and displays it on a web page with a dynamic background video that changes according to the weather condition.
 # Features
 Weather Search: Users can search for weather conditions by city name.
+
 Dynamic Background Video: The background video changes based on the weather condition, providing a visually engaging experience.
+
 Weather Data: The API fetches weather data from OpenWeatherMap, including temperature, feels like temperature, and weather condition.
 # Technical Details
 Flask API: The project uses Flask to create a RESTful API that handles HTTP requests and responses.
