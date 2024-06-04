@@ -1,5 +1,5 @@
 # Weather Report API with Dynamic Background Video
-================
+
 This project is a Flask API that fetches weather data from OpenWeatherMap and displays it on a web page with a dynamic background video that changes according to the weather condition.
 Features
 Weather Search: Users can search for weather conditions by city name.
